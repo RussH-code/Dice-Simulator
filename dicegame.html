@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Random Number Generator Web App</title>
+    <script type="text/javascript" src="dice.js" defer></script>
+    <link rel="stylesheet" href="dicegame.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  </head>
+  <body class="p-3 mb-2 bg-success text-dark">
+    <div>
+      <label for="diceNumber">Number of dice to roll:</label>
+      <br/>
+      <input type="text" value=1 min=1 max=50 id="diceNumber" name="diceNumber">
+      <br/>
+
+      <label for="faces">Choose dice:</label>
+      <select name="faces", id="faces">
+        <option value=4>d4</option>
+        <option value=6>d6</option>
+        <option value=8>d8</option>
+        <option value=10>d10</option>
+        <option value=12>d12</option>
+        <option value=20>d20</option>
+      </select>
+      <br/><br/>
+      <button class="btn btn-primary btn-lg" id="button">Roll</button>
+      <br/><br/>
+    </div>
+    <div id="totalResults"></div>
+    <br/>
+    <div class="displayResults" id="diceResults"></div>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+body{
+  position: absolute;
+  left: 700px;
+  background: url(dice.png) no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#totalResults > div{
+  font-size: 10rem;
+}
+
+.displayResults {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	font-size: 5rem;
+	text-align: center;
+}
+
+.displayResults > div {
+	display: flex;
+	justify-content: center;
+	cursor: default;
+	align-items: center;
+	background: #65dd91;
+	border-radius: 1rem;
+	box-shadow: 1px 1px 1px #e1f2a2;
+	width: 6rem;
+	height: 6rem;
+}
