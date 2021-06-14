@@ -14,3 +14,8 @@ Output the details (number) of the individual dice rolls (Possibly using a forea
 
 Details of project can be found on: 
 https://www.codementor.io/projects/web/random-number-generator-web-app-bz042v8kll
+
+## Usage
+The Dice Simulator can be assessed by pulling this repository and opening the .html file in a browser. Be sure to put the .png, .css and .js file in the same directory as well.
+
+Image Courtesy: https://favpng.com/png_view/dice-roller-role-playing-game-d20-systemdice-dungeons-dragons-d20-png/fLQg4E5D
