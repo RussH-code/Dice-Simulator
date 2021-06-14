@@ -20,4 +20,4 @@ The Dice Simulator can be assessed by pulling this repository and opening the .h
 
 ![Sample Website](https://github.com/RussH-code/Dice-Simulator/blob/main/simulator.PNG)
 
-Image Courtesy: https://favpng.com/png_view/dice-roller-role-playing-game-d20-systemdice-dungeons-dragons-d20-png/fLQg4E5D
+Image Courtesy of background dice artwork: https://favpng.com/png_view/dice-roller-role-playing-game-d20-systemdice-dungeons-dragons-d20-png/fLQg4E5D
